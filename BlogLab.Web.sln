@@ -5,7 +5,13 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Web", "BlogLab.Web\BlogLab.Web.csproj", "{A0254C10-A44C-47C0-A84E-2B4AD00BE705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogLab.Models", "BlogLab.Models\BlogLab.Models.csproj", "{C19697DC-EBE9-420A-B5A4-F93A5D3E9A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Models", "BlogLab.Models\BlogLab.Models.csproj", "{C19697DC-EBE9-420A-B5A4-F93A5D3E9A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogLab.Repository", "BlogLab.Repository\BlogLab.Repository.csproj", "{8057D001-964F-4D44-992E-A9D9C64AE561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogLab.Identity", "BlogLab.Identity\BlogLab.Identity.csproj", "{2AF0425C-817E-464E-8C24-3BA5FEE5098F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogLab.Services", "BlogLab.Services\BlogLab.Services.csproj", "{853F6E63-BB78-4E47-B88B-FB2CA05F4CC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{C19697DC-EBE9-420A-B5A4-F93A5D3E9A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C19697DC-EBE9-420A-B5A4-F93A5D3E9A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C19697DC-EBE9-420A-B5A4-F93A5D3E9A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8057D001-964F-4D44-992E-A9D9C64AE561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8057D001-964F-4D44-992E-A9D9C64AE561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8057D001-964F-4D44-992E-A9D9C64AE561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8057D001-964F-4D44-992E-A9D9C64AE561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF0425C-817E-464E-8C24-3BA5FEE5098F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF0425C-817E-464E-8C24-3BA5FEE5098F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF0425C-817E-464E-8C24-3BA5FEE5098F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF0425C-817E-464E-8C24-3BA5FEE5098F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853F6E63-BB78-4E47-B88B-FB2CA05F4CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853F6E63-BB78-4E47-B88B-FB2CA05F4CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853F6E63-BB78-4E47-B88B-FB2CA05F4CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853F6E63-BB78-4E47-B88B-FB2CA05F4CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
